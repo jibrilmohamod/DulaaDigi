@@ -31,6 +31,15 @@
         "videos",
         "audios"
       ]
+    },
+    "color": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "gear": {
+      "type": "string"
     }
   }
 }
