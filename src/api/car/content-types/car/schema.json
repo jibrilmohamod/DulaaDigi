@@ -4,15 +4,33 @@
   "info": {
     "singularName": "car",
     "pluralName": "cars",
-    "displayName": "cars"
+    "displayName": "cars",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "model": {
+    "make": {
       "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
